@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/raw/*
+data/processed/*
+data/interim/*
+
+# Temporary files
+*.log
+*.tmp
